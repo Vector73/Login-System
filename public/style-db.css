@@ -1,0 +1,50 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.head{
+    width: 100%;
+    height: 50px;
+    display: grid;
+}
+body{
+    background-image: url("bg.jpg");
+    background-size: 100% 800px;
+}
+
+@keyframes slide {
+    0%{
+        transform: translateY(-200%);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+a{
+    justify-self: center;
+}
+a:visited{
+    color: blue;
+}
+.container{
+    font-size: x-large;
+    font-family: "agency fb";
+    justify-self: center;
+    justify-self: center;
+    display: grid;
+    animation: 0.8s ease-out 0s 1 slide;
+    border-style: solid;
+    border-radius: 2%;
+    border-width: 2px;
+    box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.2);
+    width: 500px;
+    background-color: #acc9ec;
+    border-color: #72a8ea;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-top: 60px;
+    justify-content: center;
+    color:white;
+}

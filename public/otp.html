@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style-otp.css" , rel="stylesheet" type="text/css">
+    <link rel="shortcut icon" type="image/jpg" href="key.jpg"/>
+    <title>OTP Verification</title>
+</head>
+<body>
+    <main>
+        <div class="login">
+            <h1>OTP</h1>
+            <span class="err">Field must not be empty</span><input type="text" id="otp" name="otp" placeholder="Enter OTP">
+            <button id="submit">Send</button>
+            <div class="sign"><a href="/resend" class="link">Resend</a><div class="sign time"></div></div>
+        </div>
+    </main>
+    <script src="script-otp.js"></script>
+</body>
+</html>

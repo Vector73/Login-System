@@ -5,9 +5,9 @@ This is a full-stack web project which implements fully functional Login system 
 
 
 ## Setup Email-ID
-Add your email-id and app password in router.js 
+Add your email-id and app password in router.js. 
 Example:
-```javascript
+```js
 var transporter = nodemailer.createTransport({
   service: 'gmail',
   auth: {

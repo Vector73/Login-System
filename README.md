@@ -11,8 +11,8 @@ Example:
 var transporter = nodemailer.createTransport({
   service: 'gmail',
   auth: {
-    user: "xyz@gmail.com",
-    pass: "hjdgsfajfegjkgsu"
+    user: "abc@gmail.com",
+    pass: "hjdgsfojfegjklju"
   }
 }, {
   from: "xyz@gmail.com",
